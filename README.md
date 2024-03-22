@@ -4,7 +4,7 @@
 
 ### Q1. What is spatial separable convolution and how is it different from simple convolution?
 
-Answer:  
+#### Answer:  
 
 Spatial separable convolution is a technique used in convolutional neural networks (CNNs) to reduce the computational cost of convolutions, especially for large kernel sizes. In spatial separable convolution, a single convolutional operation is decomposed into two separate operations: a series of 1D convolutions along each spatial dimension (usually horizontal and vertical).
 
@@ -22,7 +22,7 @@ By decomposing the 2D convolution into two separate 1D convolutions, spatial sep
 
 ### Q2. What is the difference between depthwise and pointwise convolutions?
 
-Answer:  
+#### Answer:  
 
 Depthwise convolution and pointwise convolution are two separate operations often used in convolutional neural networks (CNNs), especially in architectures like MobileNet. Let's discuss each one and their differences:
 
@@ -52,7 +52,7 @@ In architectures like MobileNet, depthwise separable convolution is often used, 
 
 ### Q3. What is the sense of 1 x 1 convolution?  
 
-Answer:  
+#### Answer:  
 
 The 1x1 convolution, also known as pointwise convolution, is a type of convolutional operation commonly used in neural network architectures. Despite its small kernel size, 1x1 convolutions have several important uses and advantages:
 
@@ -76,7 +76,7 @@ Overall, 1x1 convolutions are a powerful tool in the arsenal of convolutional ne
 
 ### Q4. What is the role of residual connections in neural networks?  
 
-Answer:  
+#### Answer:  
 
 Residual connections, also known as skip connections, play a crucial role in deep neural networks, particularly in addressing the vanishing gradient problem and facilitating the training of very deep networks. Here's an overview of the role of residual connections:
 
